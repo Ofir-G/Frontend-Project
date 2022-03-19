@@ -1,0 +1,45 @@
+form {
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 8px gray;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#btn-buy {
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+#btn-buy:hover {
+    background-color: seagreen;
+}
+
+.form-control:hover,
+.custom-select:hover {
+    box-shadow: 0 0 3px 3px rgb(164, 207, 255);
+}
+
+@media only screen and (max-width: 750px) {
+    #btn-buy {
+        width: 50%;
+    }
+}
+
+.card {
+    margin: auto;
+    width: 30rem;
+    display: none;
+}
+
+.card-img-top {
+    height: 18em;
+    object-fit: cover;
+}
+
+#choice {
+    display: none;
+    color: green;
+    font-weight: bold;
+}
